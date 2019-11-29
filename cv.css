@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color:#E7E8E8;
+}
+
+.container{
+    max-width: 1000px;
+    background-color:#FFF0EA;
+    margin: 0% auto;
+    padding: 10px;
+}
+
+
+.profile-image{
+    
+    max-width: 150px;
+    max-height: 250px;
+    margin-bottom: 10px;
+    padding-left: 0%;
+    border: 3px black solid;
+    border-radius:30%;
+    float: left;
+    
+}
+.hedding{
+    float: left;
+    padding: 40px;
+}
+
+h1,h2,h3{
+    color :  #666699;
+}
+
+.hedear-link{
+    font-size: 23px;
+    float:right;
+    padding-top: 40px;
+    padding-right: 20px;
+    
+}
+.hedear-link a{
+    color: teal;
+    font-weight: bold;
+    text-decoration:none;
+}
+.hedear-link a:hover{
+    text-decoration:underline;
+    color: tomato;
+}
+
+.div-clear{
+    clear: both;
+}
+hr{
+    border: #7C6B4E 5px solid;
+    width: 100%;
+    margin: 0% auto;
+    padding-top: 0px;
+    padding-left: 0px;
+    
+}
+
+/*------------
+personal section
+----------------*/
+.content{
+
+}
+.left-div{
+    width: 40%;
+    margin-top: 10px;
+    float: left;
+
+}
+.right-div{
+    width: 60%;
+    margin-top: 10px;
+    float: left;
+    margin-bottom: 10px;
+
+}
+.common-hr{
+    border: solid #7C6B4E 2px;
+    border-bottom: none;
+    width: 100%;
+}
+
+.right-div p{
+    color:#6E1200;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+.right-div ul li{
+    color: #6E1200;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
